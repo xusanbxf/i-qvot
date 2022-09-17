@@ -1,0 +1,123 @@
+@media (max-width:460px) {
+    .nav__content{
+  
+        width: 420px; 
+    }
+    .header__bg{
+        width: 420px; 
+
+    }
+    .header__content{
+        width: max-content;
+      
+    }
+    .container{
+        width: 420px;
+    }
+    .contacts__img{
+        width: 420px;
+    }
+    .header__text{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
+@media (max-width:420px) {
+    .nav__content{
+  
+        width: 390px; 
+    }
+    .header__bg{
+        width: 390px; 
+
+    }
+    .header__content{
+        
+        width: 390px; 
+    }
+    .container{
+        width: 390px;
+    }
+    .contacts__img{
+        width: 390px;
+    }
+     .text_4{
+        height: 30px;
+        width: 84px;
+     }
+     .statistics__left{
+        flex-direction: unset;
+     }
+     .statistics__right{
+        flex-direction: unset;
+     }
+     .statistics__content{
+        flex-direction: column;
+        align-items: center;
+     }
+}
+@media (max-width:390px) {
+    .nav__content{
+        width: 350px; 
+    }
+    .header__bg{
+        width: 380px; 
+        margin: 0 auto;
+    }
+    .header__content{
+        width: 350px; 
+    }
+    .container{
+        width: 350px;
+    }
+    .contacts__img{
+        width: 350px;
+    }
+    .left__list{
+        gap: 5px;
+        margin-right: 3px;
+    }
+    .right__list{
+        margin-left: 4px;
+        gap: 5px;    
+    }
+    .info__content{
+        width: 315px;
+    }
+
+}
+@media (max-width:350px) {
+    .nav__content,
+    .header__bg,
+    .header__content,
+    .container,
+    .contacts__img{
+        width: 320px;
+    }
+    .left__list{
+        gap: 5px;
+        margin-right: 3px;
+    }
+    .right__list{
+        margin-left: 4px;
+        gap: 5px;    
+    }
+    .info__content{
+        width: 315px;
+    }
+    .statistics__right,
+    .statistics__left{
+        flex-direction: column;
+    }
+    .right__list,
+    .left__list {
+        flex-direction: column;
+        gap: 8px
+    }
+    .nav__content{
+        gap: 10px;
+    }
+    .Advantage__content{
+        gap: 30px;
+    }
+}
